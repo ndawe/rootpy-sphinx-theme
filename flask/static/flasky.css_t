@@ -137,6 +137,15 @@ div.sphinxsidebar input {
     font-family: 'Georgia', serif;
     font-size: 1em;
 }
+
+div.sphinxsidebar input[type="submit"] {
+    width: 30%;
+}
+
+div.sphinxsidebar input[type="text"] {
+    width: 70%;
+}
+
  
 /* -- body styles ----------------------------------------------------------- */
  
