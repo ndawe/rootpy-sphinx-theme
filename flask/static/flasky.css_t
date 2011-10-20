@@ -139,11 +139,11 @@ div.sphinxsidebar input {
 }
 
 div.sphinxsidebar input[type="submit"] {
-    width: 30%;
+    width: 10px;
 }
 
 div.sphinxsidebar input[type="text"] {
-    width: 70%;
+    width: 20px;
 }
 
  
