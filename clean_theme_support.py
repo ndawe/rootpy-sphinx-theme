@@ -4,7 +4,7 @@ from pygments.token import Keyword, Name, Comment, String, Error, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
-class FlaskyStyle(Style):
+class CleanStyle(Style):
     background_color = "#f8f8f8"
     default_style = ""
 
