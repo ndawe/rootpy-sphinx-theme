@@ -1,11 +1,12 @@
-# flasky extensions.  flasky pygments style based on tango style
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
 class CleanStyle(Style):
-    background_color = "#f8f8f8"
+    
+    background_color = "#000000"
+
     default_style = ""
 
     styles = {
@@ -78,7 +79,7 @@ class CleanStyle(Style):
         Generic.Error:             "#ef2929",        # class: 'gr'
         Generic.Heading:           "bold #000080",   # class: 'gh'
         Generic.Inserted:          "#00A000",        # class: 'gi'
-        Generic.Output:            "#888",           # class: 'go'
+        Generic.Output:            "#fff",           # class: 'go'
         Generic.Prompt:            "#745334",        # class: 'gp'
         Generic.Strong:            "bold #000000",   # class: 'gs'
         Generic.Subheading:        "bold #800080",   # class: 'gu'
