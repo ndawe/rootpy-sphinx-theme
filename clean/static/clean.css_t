@@ -350,11 +350,11 @@ ul, ol {
 }
  
 pre {
-    background: #111;
+    background: #ccc;
     padding: 8px;
     margin: 15px -10px;
     line-height: 1.3em;
-    color: #fff;
+    color: #000;
 }
 
 dl pre, blockquote pre, li pre {
